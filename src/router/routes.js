@@ -4,7 +4,11 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
+      { path: '', component: () => import('pages/IndexPage.vue') },
+      { path: '/vue', component: () => import('pages/VueEx.vue') },
+      { path: '/shop', component:() => import('pages/ShoppingList.vue')},
+      // 아래 한줄 추가
+      // { path: '/vue', compoonent: () => import('pages/VueEx.vue')},
     ]
   },
 
