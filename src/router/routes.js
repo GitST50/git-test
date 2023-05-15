@@ -7,6 +7,8 @@ const routes = [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: '/vue', component: () => import('pages/VueEx.vue') },
       { path: '/shop', component:() => import('pages/ShoppingList.vue')},
+      { path: '/todo', component:() => import('pages/Todo.vue')},
+      { path: '/dbtodo', component:() => import('pages/DbTodo.vue')},
       // 아래 한줄 추가
       // { path: '/vue', compoonent: () => import('pages/VueEx.vue')},
     ]

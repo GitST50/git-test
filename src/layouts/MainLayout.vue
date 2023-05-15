@@ -64,6 +64,18 @@ const linksList = [
     icon: 'school',
     link: '/vue'
   },
+  {
+    title: 'todo',
+    caption: 'vue+store 실습',
+    icon:'home',
+    link:'/todo'
+  },
+  {
+    title: "db todo list",
+    caption: "vue + database",
+    icon: "chat",
+    link: "/dbtodo",
+  },
   // {
   //   title: 'Docs',
   //   caption: 'quasar.dev',
